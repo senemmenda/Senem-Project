@@ -25,11 +25,13 @@ header {
 h1 {
   color: #FFFACD;
   font-size: 48px;
+  text-transform: uppercase;
 }
 
 nav {
   background-color: #F37748;
   font-size: 24px;
+  text-transform: uppercase;
 }
 
 nav ul {
@@ -59,21 +61,50 @@ background-color: #84BCDA;
   background-color: #FFFFE0;
   padding:1em;
   overflow: hidden;
-  width: 100%
+  width: 100%;
   box-sizing: border-box;
+}
+
+sidenav {
+  float: left;
+  width: 15%;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+sidenav ul {
+  background-color: #FFA07A;
+  color: #191970;
+  margin: -2em;
+  width:100%;
+  min-height: 500px;
+  padding:1em;
+}
+
+sidenav a {
+  color: #FFFACD;
+  text-decoration: none;
+  padding: 1em;
+  display: inline-block;
+}
+
+sidenav a:hover {
+background-color: #84BCDA;
 }
 
 article {
   float: left;
-  width: 80%
+  width: 60%
 }
 
 article p {
   margin-right: 1em;
+  margin-left:1em;
 }
 
-article h{
+article h2{
   margin: 0;
+  margin-left:1em;
 }
 
 .facts {
