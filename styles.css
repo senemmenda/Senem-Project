@@ -103,7 +103,12 @@ article p {
 }
 
 article h2{
-  margin: 0;
+  margin: 1em;
+  margin-left:1em;
+}
+
+article h3{
+  margin: 1em;
   margin-left:1em;
 }
 
