@@ -9,13 +9,17 @@ Turquoise: #40E0D0
 LightSalmon: #FFA07A
 Aquamarine:	#7FFFD4
 LightYellow: #FFFFE0
+BlanchedAlmond:	#FFEBCD
+SandyBrown: #F4A460
+DarkTurquoise: #00CED1
+MidnightBlue: #191970
 */
 
 header {
   background-color: #40E0D0;
   padding: 1em;
   text-align: center;
-  font-family: Impact;
+  font-family: I
 }
 
 h1 {
@@ -56,6 +60,7 @@ background-color: #84BCDA;
   padding:1em;
   overflow: hidden;
   width: 100%
+  box-sizing: border-box;
 }
 
 article {
@@ -64,23 +69,30 @@ article {
 }
 
 article p {
-  margin-right: 2em;
+  margin-right: 1em;
 }
 
-article h2,
-aside h3{
+article h{
   margin: 0;
 }
 
 .facts {
   float: right;
   background-color: #FFA07A;
-  margin: -1em;
+  color: #191970;
+  margin: -2em;
   width: 20%;
-  min-height: 400px;
+  min-height: 500px;
   padding:1em;
 }
 
 body {
   margin: 0;
+}
+
+footer {
+  background-color: #40E0D0;
+  padding: 1em;
+  text-align: right;
+  font-family: Impact;
 }
